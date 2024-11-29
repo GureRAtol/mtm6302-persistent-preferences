@@ -1,0 +1,55 @@
+/* Default Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+#list-container, #preferences-panel {
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Theme Styles */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.blue {
+    background-color: #e0f7fa;
+    color: #005662;
+}
+
+/* List Styles */
+ul.disc {
+    list-style-type: disc;
+}
+
+ul.circle {
+    list-style-type: circle;
+}
+
+ul.square {
+    list-style-type: square;
+}
